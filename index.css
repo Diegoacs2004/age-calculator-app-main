@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background-color: hsl(0, 0%, 86%);    
+    font-family: "Poppins" ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.class-content{
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    margin: 50px;
+    width: 540px;
+    padding-bottom: 16px;
+    border-radius: 12px 12px 120px 12px ;
+
+}
+
+.class-input{
+    display: flex;
+    padding-top: 8px;
+    font-size: 12px;
+    color: hsl(0, 1%, 44%);
+}
+
+.class-arrow {
+    display: flex;
+    align-items: center;
+    
+}
+
+.hr {
+    flex: 1;
+    margin-right: 12px;
+}
+
+
+.button-arrow{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    align-items: center;
+}
+.button-arrow > svg{
+    color: #fff;
+    transform: scale(1.5);
+}
+
+.input-day,
+.input-month,
+.input-year{
+    width: 80px;
+    display: block;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(206, 187, 168, 0.5);
+    margin-top: 5px;
+}
+
+#years,
+#months,
+#days{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.class-span > h1{
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+}
